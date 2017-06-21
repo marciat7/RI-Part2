@@ -10,7 +10,7 @@ public class Indexador {
 
 	public static void main(String[] args) {
 
-		Arquivo arquivo = new Arquivo("WINE_RI.csv", "no-stopWord.txt");
+		Arquivo arquivo = new Arquivo("WINE_RI.csv", "compactado.txt");
 		Map<String, Integer> dicionarioTitulo = new HashMap<String, Integer>();
 		Map<String, Integer> dicionarioUva = new HashMap<String, Integer>();
 		Map<String, Integer> dicionarioClassificacao = new HashMap<String, Integer>();
@@ -107,7 +107,11 @@ public class Indexador {
 		for (Entry<String, ArrayList<Pagina>> par : indices.entrySet()) {
 			arquivo.escrever(par.getKey() + ";");
 			for (int i = 0; i < par.getValue().size(); i++) {
-				arquivo.escrever(par.getValue().get(i).id + ";");
+				if (i > 0) {
+					arquivo.escrever((par.getValue().get(i).id - par.getValue().get(0).id) + ";");
+				}else{
+					arquivo.escrever(par.getValue().get(i).id + ";");
+				}
 			}
 
 			arquivo.escrever("\n");

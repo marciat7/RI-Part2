@@ -6,12 +6,12 @@ import java.util.Map;
 
 public class Pagina {
 
-	String url, titulo, classificacao, uva, teorAlcoolico;
-	int volume, id;
+	String url, titulo, classificacao, uva, teorAlcoolico, volume;
+	int  id;
 	
 	
 	public Pagina(int id, String url, String titulo, String classificacao, String uva, 
-			int volume, String teorAlcoolico) {
+			String volume, String teorAlcoolico) {
 		this.id = id;
 		this.url = url;
 		this.titulo = titulo;
@@ -22,7 +22,8 @@ public class Pagina {
 		
 	}
 	
-	public void toquenizar(Map<String,Integer> dicionarioTitulo, Map<String,Integer> dicionarioUva, Map<String,Integer> dicionarioClassificacao) {
+	public void toquenizar(Map<String,Integer> dicionarioTitulo, Map<String,Integer> dicionarioUva, Map<String,Integer> dicionarioClassificacao,
+			Map<String,Integer> dicionarioVolume, Map<String,Integer> dicionarioTeorA) {
 		
 		String[] atrTitulo = titulo.split(" ");
 		
@@ -54,6 +55,27 @@ public class Pagina {
 			}
 			dicionarioClassificacao.put(atrClassificacao[i], x+1);
 		}
+		
+		String[] atrVolume = volume.split(" ");
+		
+		for (int i = 0; i < atrVolume.length; i++) {
+			int x = 0; 
+			if (dicionarioVolume.get(atrVolume[i]) != null) {
+				x = dicionarioVolume.get(atrVolume[i]);
+			}
+			dicionarioVolume.put(atrVolume[i], x+1);
+		}
+		
+		String[] atrTeorA = teorAlcoolico.split(" ");
+		
+		for (int i = 0; i < atrTeorA.length; i++) {
+			int x = 0; 
+			if (dicionarioTeorA.get(atrTeorA[i]) != null) {
+				x = dicionarioTeorA.get(atrTeorA[i]);
+			}
+			dicionarioTeorA.put(atrTeorA[i], x+1);
+		}
+		
 	}
 	
 	

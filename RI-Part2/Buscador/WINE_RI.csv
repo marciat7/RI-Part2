@@ -1,0 +1,71 @@
+id;titulo;volume;uva;teorAlcoolico;classificacao;URL
+1;Château Roberperots Bordeaux 2012 - 750ml;750ml;Várias UvasMerlot, Cabernet Sauvignon e Cabernet Franc;13,50%;Tinto;http://www.emporio.com/vinho-tinto-frances-chateau-roberperots-bordeaux-2012/p#
+2;Cava Visiega Brut - 750ml;750ml;Várias UvasMacabeo, Xarel-Lo e Parellada;11,50%;Espumante;http://www.emporio.com/vinho-espumante-cava-espanhol-brut-visiega/p
+3;Château Roberperots Bordeaux 2012 - 750ml;750ml;Várias UvasMerlot, Cabernet Sauvignon e Cabernet Franc;13,50%;Tinto;http://www.emporio.com/vinho-tinto-frances-chateau-roberperots-bordeaux-2012/p
+4;Corinto Carménère - 750ml;750ml;CarménèreCarménère;13%;Vinho Tinto;http://www.emporio.com/vinho-tinto-corinto-carmenere-750ml/p
+5;Casas del Toqui Single Estate D.O. Central Valley Cabernet Sauvignon 2016 375 ml;2016;Seco;Cabernet Sauvignon (100%);Tinto;https://www.wine.com.br/vinhos/casas-del-toqui-single-estate-d-o-central-valley-cabernet-sauvignon-2016-375-ml/prod17528.html#comentarios
+6;"											(375 ml)""";2016;Meio Seco/Demi-Sec;Syrah (100%);Tinto;https://www.wine.com.br/vinhos/ventisquero-classico-syrah-2016/prod17366.html#comentarios
+7;Ventisquero Clássico Syrah 2016;2016;Seco;Sauvignon Blanc (100%);Branco;https://www.wine.com.br/vinhos/casas-del-toqui-single-estate-sauvignon-blanc-2016-375-ml/prod17529.html
+8;"											(750 ml)""";750 ml;Fino;;Seco;https://www.vinhosevinhos.com/valmarino-cabernet-franc-xix.html
+9;Casas del Toqui Single Estate Sauvignon Blanc 2016 375 ml;Límpido, coloração ruby de média intensidade com bordo violáceo.;Fino;;Seco;https://www.vinhosevinhos.com/miolo-gamay-nouveau.html
+10;"											(375 ml)""";750 ml;Fino;;Seco;https://www.vinhosevinhos.com/vinho-casa-perini-merlot-750-ml.html#sm_megamenu_menu591c301fe14c4
+11;Valmarino Cabernet Franc XX;2016;Seco;;Tinto;https://www.wine.com.br/vinhos/salton-classic-cabernet-franc-2016/prod17573.html#comentarios
+12;Miolo Gamay Nouveau;750 ml;Fino;;Seco;https://www.vinhosevinhos.com/vinho-casa-perini-merlot-750-ml.html
+13;Casa Perini Merlot;750 ml;Fino;;Seco;https://www.vinhosevinhos.com/vinho-casa-perini-merlot-750-ml.html#
+14;Salton Classic Cabernet Franc 2016;2016;Seco;;Branco;https://www.wine.com.br/vinhos/casas-del-toqui-single-estate-sauvignon-blanc-2016-375-ml/prod17529.html#comentarios
+15;"											(750 ml)""";750 ml;Fino;;Seco;https://www.vinhosevinhos.com/vinho-panizzon-di-mallo-merlot-seco-750ml-cx-c-12-unidades.html
+16;Casa Perini Merlot;2016;Seco;;Tinto;https://www.wine.com.br/vinhos/casas-del-toqui-single-estate-d-o-central-valley-cabernet-sauvignon-2016-375-ml/prod17528.html
+17;Casa Perini Merlot;2016;Seco;Cabernet Franc (100%);Tinto;https://www.wine.com.br/vinhos/salton-classic-cabernet-franc-2016/prod17573.html
+18;Casas del Toqui Single Estate Sauvignon Blanc 2016 375 ml;2015;Seco;;Branco;https://www.wine.com.br/vinhos/portas-da-herdade-branco-2015/prod15639.html
+19;"											(375 ml)""";2016;Meio Seco/Demi-Sec;;Tinto;https://www.wine.com.br/vinhos/ventisquero-classico-syrah-2016/prod17366.html
+20;Di Mallo Merlot;2014;Suave/Doce;;Licoroso;https://www.wine.com.br/vinhos/bacalhoa-moscatel-de-setubal-colheita-d-o-setubal-2014/prod17600.html#comentarios
+21;Casas del Toqui Single Estate D.O. Central Valley Cabernet Sauvignon 2016 375 ml;2014;Suave/Doce;;Licoroso;https://www.wine.com.br/vinhos/bacalhoa-moscatel-de-setubal-colheita-d-o-setubal-2014/prod17600.html
+22;"											(375 ml)""";2015;Seco;;Branco;https://www.wine.com.br/vinhos/portas-da-herdade-branco-2015/prod15639.html#comentarios
+23;Salton Classic Cabernet Franc 2016;2016;Meio Seco/Demi-Sec;;Branco;https://www.wine.com.br/vinhos/canepa-novisimo-chardonnay-2016/prod16011.html#comentarios
+24;"											(750 ml)""";2016;Meio Seco/Demi-Sec;Sauvignon Blanc (100%);Branco;https://www.wine.com.br/vinhos/canepa-novisimo-pinot-grigio-2016/prod15979.html
+25;Portas da Herdade Branco 2015;750 ml;Palomino (100%);;Seco;https://www.wine.com.br/vinhos/gonzalez-byass-tio-pepe-jerez-fino-d-o/prod3003.html#comentarios
+26;"											(750 ml)""";2014;Seco;;Tinto;https://www.wine.com.br/vinhos/altas-cumbres-malbec-2014-375ml/prod15483.html
+27;Ventisquero Clássico Syrah 2016;750 ml;20% ABV;;Castas tradicionais do Douro;https://www.wine.com.br/vinhos/taylors-porto-select-reserva/prod10728.html#comentarios
+28;"											(750 ml)""";2015;Seco;Cabernet Sauvignon (100%);Branco;https://www.wine.com.br/vinhos/polo-amateur-chardonnay-2015/prod15688.html
+29;Bacalhoa Moscatel de Setúbal Colheita D.O. Setúbal 2014;2015;Meio Seco/Demi-Sec;Cabernet Franc (100%);Branco;https://www.wine.com.br/vinhos/felix-solis-caliza-d-o-la-mancha-branco-2015/prod15603.html#comentarios
+30;"											(750 ml)""";2012;Seco;Arinto (50%), Antão Vaz (45%) e Roupeiro (5%);Branco;https://www.wine.com.br/vinhos/santa-rita-120-sauvignon-blanc-2012-375ml/prod8344.html
+31;Bacalhoa Moscatel de Setúbal Colheita D.O. Setúbal 2014;2016;Meio Seco/Demi-Sec;Syrah (100%);Branco;https://www.wine.com.br/vinhos/canepa-novisimo-sauvignon-blanc-2016/prod15641.html#comentarios
+32;"											(750 ml)""";2015;Meio Seco/Demi-Sec;Moscatel de Setúbal (100%);Branco;https://www.wine.com.br/vinhos/felix-solis-caliza-d-o-la-mancha-branco-2015/prod15603.html
+33;Portas da Herdade Branco 2015;2014;Seco;Moscatel de Setúbal (100%);Branco;https://www.wine.com.br/vinhos/prova-regia-arinto-2014-375ml/prod15171.html#comentarios
+34;"											(750 ml)""";2014;Seco;Arinto (50%), Antão Vaz (45%) e Roupeiro (5%);Branco;https://www.wine.com.br/vinhos/prova-regia-arinto-2014-375ml/prod15171.html
+35;Canepa Novísimo Chardonnay 2016;2015;Seco;Chardonnay (85%) e outras variedades brancas (15%);Tinto;https://www.wine.com.br/vinhos/ventisquero-reserva-carmenere-2015-375ml/prod16244.html#comentarios
+36;"											(750 ml)""";2013;Malbec (100%);Pinot Grigio (85%) e Chardonnay (15%);Tinto;https://www.wine.com.br/vinhos/bodega-amalia-dos-fincas-malbec-2013-375-ml/prod12653.html#comentarios
+37;Canepa Novísimo Pinot Grigio 2016;2015;Seco;15% ABV;Branco;https://www.wine.com.br/vinhos/polo-amateur-chardonnay-2015/prod15688.html#comentarios
+38;"											(750 ml)""";750 ml;Palomino (75%) e Pedro Ximénes (25%);Malbec (100%);Suave/Doce;https://www.wine.com.br/vinhos/gonzalez-byass-solera-1847-jerez-cream-d-o/prod11913.html
+39;González Byass Tio Pepe Jerez Fino D.O;2016;Meio Seco/Demi-Sec;3 anos em tonéis de carvalho;Branco;https://www.wine.com.br/vinhos/canepa-novisimo-sauvignon-blanc-2016/prod15641.html
+40;"											(750 ml)""";2015;Seco;Chardonnay (100%);Branco;https://www.wine.com.br/vinhos/cava-negra-chardonnay-2015-375-ml/prod16014.html#comentarios
+41;Altas Cumbres Malbec 2014 375ml;750 ml;Palomino (100%);Chardonnay, Verdejo e Viura;Seco;https://www.wine.com.br/vinhos/gonzalez-byass-tio-pepe-jerez-fino-d-o/prod3003.html
+42;"											(375 ml)""";750 ml;20% ABV;Sauvignon Blanc (100%);Castas tradicionais do Douro;https://www.wine.com.br/vinhos/taylors-porto-select-reserva/prod10728.html
+43;Taylors Porto Select Reserva;750 ml;Tannat;Sauvignon Blanc (100%);Seco;https://www.vinhosevinhos.com/vinho-guatambu-rastros-do-pampa-tannat-750ml.html#
+44;"											(750 ml)""";750 ml;Grillo e Catarratto;Chardonnay, Verdejo e Viura;Seco;https://www.wine.com.br/vinhos/marsala-vergine-soleras-dop/prod11984.html
+45;Polo Amateur Chardonnay 2015;750 ml;19.5% ABV;Arinto (100%);Touriga Franca, Touriga Nacional, Tinta Barroca, Tinto CÃ£o, Tinta Roriz e Tinta Amarela;https://www.wine.com.br/vinhos/vinho-do-porto-ferreira-ruby/prod1678.html#comentarios
+46;"											(750 ml)""";750 ml;19.5% ABV;Arinto (100%);Touriga Franca, Touriga Nacional, Tinta Barroca, Tinto CÃ£o, Tinta Roriz e Tinta Amarela;https://www.wine.com.br/vinhos/vinho-do-porto-ferreira-ruby/prod1678.html
+47;Félix Solís Caliza D.O. La Mancha Branco 2015;2016;Meio Seco/Demi-Sec;Carménère (85%) e Syrah (15%);Branco;https://www.wine.com.br/vinhos/canepa-novisimo-chardonnay-2016/prod16011.html
+48;"											(750 ml)""";2016;Meio Seco/Demi-Sec;13.7% ABV;Branco;https://www.wine.com.br/vinhos/canepa-novisimo-pinot-grigio-2016/prod15979.html#comentarios
+49;Santa Rita 120 Sauvignon Blanc 2012 375ml;750 ml;Tannat;Chardonnay (100%);Seco;https://www.vinhosevinhos.com/vinho-guatambu-rastros-do-pampa-tannat-750ml.html#sm_megamenu_menu591c302105b73
+50;"											(375 ml)""";750 ml;Tannat;18% ABV;Seco;https://www.vinhosevinhos.com/vinho-guatambu-rastros-do-pampa-tannat-750ml.html
+51;Canepa Novísimo Sauvignon Blanc 2016;2013;Malbec (100%);Sauvignon Blanc (100%);Tinto;https://www.wine.com.br/vinhos/bodega-amalia-dos-fincas-malbec-2013-375-ml/prod12653.html
+52;"											(750 ml)""";2015;Meio Seco/Demi-Sec;Chardonnay (100%);Tinto;https://www.wine.com.br/vinhos/toro-loco-tempranillo-2015/prod15536.html#comentarios
+53;Félix Solís Caliza D.O. La Mancha Branco 2015;750 ml;19.5% ABV;15% ABV;Malvasia Fina, CÃ³dega, Rabigato e Gouveio;https://www.wine.com.br/vinhos/vinho-do-porto-ferreira-branco/prod1677.html
+54;"											(750 ml)""";750 ml;20% ABV;3 anos em tonéis de carvalho;Castas tradicionais do Douro;https://www.wine.com.br/vinhos/taylors-porto-fine-tawny/prod10727.html
+55;Prova Régia Arinto 2014 375ml;2014;Sauvignon Blanc (100%);;Branco;https://www.wine.com.br/vinhos/bodega-amalia-dos-fincas-sauvignon-blanc-2014-375-ml/prod12652.html#comentarios
+56;"											(375 ml)""";2015;Seco;;Tinto;https://www.wine.com.br/vinhos/ventisquero-reserva-carmenere-2015-375ml/prod16244.html
+57;Prova Régia Arinto 2014 375ml;2015;Seco;;Tinto;https://www.wine.com.br/vinhos/cava-negra-malbec-2015-375ml/prod15523.html
+58;"											(375 ml)""";200 ml;11.5% ABV;19% ABV;Macabeo, xare-llo e parellada;https://www.wine.com.br/vinhos/espumante-freixenet-carta-nevada-premium-cava-semi-seco-200-ml/prod7048.html#comentarios
+59;Ventisquero Reserva Carménère 2015 375ml;750 ml;Palomino (75%) e Pedro Ximénes (25%);Média de 3 anos em grandes tonéis de carvalho;Suave/Doce;https://www.wine.com.br/vinhos/gonzalez-byass-solera-1847-jerez-cream-d-o/prod11913.html#comentarios
+60;"											(375 ml)""";750 ml;Grillo e Catarratto;Média de 3 anos em grandes tonéis de carvalho;Seco;https://www.wine.com.br/vinhos/marsala-vergine-soleras-dop/prod11984.html#comentarios
+61;Bodega Amalia Dos Fincas Malbec 2013 375 ml;5 meses em barricas de carvalho (50% do volume);Sem classificacao;Chardonnay (85%) e outras variedades brancas (15%);Fino;https://www.vinhosevinhos.com/vinho-aracuri-pinot-noir-750-ml.html
+62;"											(375 ml)""";2014;Seco;Pinot Grigio (85%) e Chardonnay (15%);Tinto;https://www.wine.com.br/vinhos/altas-cumbres-malbec-2014-375ml/prod15483.html#comentarios
+63;Polo Amateur Chardonnay 2015;2015;Seco;;Branco;https://www.wine.com.br/vinhos/cava-negra-chardonnay-2015-375-ml/prod16014.html
+64;"											(750 ml)""";Médio;Merlot;;Fino;https://www.vinhosevinhos.com/vinho-luiz-argenta-la-merlot-750-ml.html
+65;González Byass Solera 1847 Jerez Cream D.O;2014;Sauvignon Blanc (100%);;Branco;https://www.wine.com.br/vinhos/bodega-amalia-dos-fincas-sauvignon-blanc-2014-375-ml/prod12652.html
+66;"											(750 ml)""";2015;Seco;;Tinto;https://www.wine.com.br/vinhos/cava-negra-malbec-2015-375ml/prod15523.html#comentarios
+67;Canepa Novísimo Sauvignon Blanc 2016;2015;Meio Seco/Demi-Sec;;Tinto;https://www.wine.com.br/vinhos/toro-loco-tempranillo-2015/prod15536.html
+68;"											(750 ml)""";2015;Moscatel ;;Licoroso;https://www.wine.com.br/vinhos/jp-d-o-moscatel-de-setubal-2013-com-cartucho/prod16290.html
+69;Cava Negra Chardonnay 2015 375 ml;2012;Seco;13.7% ABV;Branco;https://www.wine.com.br/vinhos/santa-rita-120-sauvignon-blanc-2012-375ml/prod8344.html#comentarios
+70;"											(375 ml)""";200 ml;11.5% ABV;Tempranillo (100%);Macabeo, xare-llo e parellada;https://www.wine.com.br/vinhos/espumante-freixenet-carta-nevada-premium-cava-semi-seco-200-ml/prod7048.html

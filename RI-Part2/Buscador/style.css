@@ -1,0 +1,57 @@
+.banner{
+    height: 300px;
+    width: 100%;
+    background-image: url("http://www.sobrevinho.net/images/categorias/curiosidades/vinhos-brasil-1.jpg");
+}
+.faixa{
+    background-color: rgba(0,0,0, 1);
+    height: 15vh;
+    margin: 0px;
+    padding-left: 70px;
+    padding-top: 5px;
+    font-size: 50px;
+    color: white;    
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   
+}
+
+.caixa{
+    background-color: rgba(255,255,255, 0.5);
+    height: 85vh;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(53, 50, 50, 0.63);
+    -moz-box-shadow:    0px 0px 16px 0px rgba(53, 50, 50, 0.63);
+    box-shadow:         0px 0px 16px 0px rgba(53, 50, 50, 0.63);
+}
+
+.resultado{
+    background-color: rgba(0,0,0, 0.8);
+    margin: 0px;
+    height: 15vh;
+    width: 100%;
+    padding-left: 70px;
+    padding-top: 5px;
+    font-size: 50px;
+    color: white;    
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+body{
+    background-repeat: no-repeat;    
+    background-position: 98% 100%;
+}
+
+.botao{
+    margin-top: 3vh;
+    margin-right: 1em;
+}
+.legenda{
+    font-size: 17px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 1vh;
+
+}
+
+.row{
+    margin: 0;
+}

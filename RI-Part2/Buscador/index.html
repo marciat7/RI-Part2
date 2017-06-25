@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Buscador</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="buscar.js"></script>
+
+</head>
+
+<body>
+
+    <div class="row">
+
+        <p class="faixa">Buscador</p>
+
+    </div>
+
+
+    <div class="container-fluid" style="width: 100%;">
+
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+
+            <div class="caixa col-md-8">
+
+
+                <div class="row">
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <p class="legenda" style="margin-top: 2em;">Selecione uma Base</p>
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-2">
+                        <select id="base" class="form-control">
+                            <option value="1">Padrão</option>
+                            <option value="2">Sem StopWord</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <p class="legenda">Titulo</p>
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <input id="titulo" type="text" class="squared-form form-control">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <p class="legenda">Uva</p>
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <input id="uva" type="text" class="squared-form form-control">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <p class="legenda">Classificacao</p>
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <input id="classificacao" type="text" class="squared-form form-control">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <p class="legenda">Volume</p>
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <input id="volume" type="text" class="squared-form form-control">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <p class="legenda">Teor Alcoolico</p>
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-6">
+                        <input id="teorA" type="text" class="squared-form form-control">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <input id="buscar" class="btn btn-default col-md-2 botao" type="button" value="Buscar">
+                <input id="reset" class="btn btn-default col-md-2 botao" type="button" value="Redefinir">
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+    <div class="row">
+                <p class="resultado">Resultados</p>
+            </div>
+
+            <div class="row">
+                <table id="tabelinha" class="table table-hover table-responsive">
+                    <tr>
+                        <td><b>Titulo</b></td>
+                        <td><b>Volume</b></td>
+                        <td><b>Uva</b></td>
+                        <td><b>Teor Alcoolico</b></td>
+                        <td><b>Classificacao</b></td>
+                        <td><b>URL</b></td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+</body>
+
+</html>

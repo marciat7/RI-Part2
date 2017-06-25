@@ -10,7 +10,7 @@ public class Indexador {
 
 	public static void main(String[] args) {
 
-		Arquivo arquivo = new Arquivo("WINE_RI.csv", "compactado.txt");
+		Arquivo arquivo = new Arquivo("WINE_RI.csv", "no-stopWord.txt");
 		Map<String, Integer> dicionarioTitulo = new HashMap<String, Integer>();
 		Map<String, Integer> dicionarioUva = new HashMap<String, Integer>();
 		Map<String, Integer> dicionarioClassificacao = new HashMap<String, Integer>();
@@ -64,14 +64,14 @@ public class Indexador {
 			} // Uva
 
 			for (Map.Entry<String, Integer> par : dicionarioClassificacao.entrySet()) {
-				if (paginas.get(i).teorAlcoolico.contains(par.getKey())) {
-					if (indices.get(par.getKey() + ".teorAlcoolico") != null) {
-						indices.get(par.getKey() + ".teorAlcoolico").add(paginas.get(i));
+				if (paginas.get(i).classificacao.contains(par.getKey())) {
+					if (indices.get(par.getKey() + ".classificacao") != null) {
+						indices.get(par.getKey() + ".classificacao").add(paginas.get(i));
 					} else {
 
 						ArrayList<Pagina> temp = new ArrayList<Pagina>();
 						temp.add(paginas.get(i));
-						indices.put(par.getKey() + ".teorAlcoolico", temp);
+						indices.put(par.getKey() + ".classificacao", temp);
 					}
 				}
 			} // Classificacao
@@ -107,7 +107,7 @@ public class Indexador {
 		for (Entry<String, ArrayList<Pagina>> par : indices.entrySet()) {
 			arquivo.escrever(par.getKey() + ";");
 			for (int i = 0; i < par.getValue().size(); i++) {
-				if (i > 0) {
+				if (false) {
 					arquivo.escrever((par.getValue().get(i).id - par.getValue().get(0).id) + ";");
 				}else{
 					arquivo.escrever(par.getValue().get(i).id + ";");
@@ -123,7 +123,7 @@ public class Indexador {
 	
 	public static String limparTexto(String texto) {
 		
-		return texto.replaceAll(Pattern.quote(")"), "").replaceAll(Pattern.quote("("), "").replaceAll("-", "").replaceAll(Pattern.quote("/"), " ");
+		return texto.replaceAll(Pattern.quote(")"), "").replaceAll(Pattern.quote("("), "").replaceAll("-", "").replaceAll(Pattern.quote("/"), " ").replaceAll(Pattern.quote(","), "");
 	}
 	
 	public static String limparStopWord(String texto) {
